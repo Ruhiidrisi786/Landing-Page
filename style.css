@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(81 64 50);
+}
+
+.main{
+    display: flex;
+
+}
+
+.main .part1{
+    height: 100vh;
+    width: 7vw;
+    overflow: hidden;
+}
+
+.main .part2{
+    height: 100vh;
+    width: 67vw;
+    background-image: url(https://media.istockphoto.com/id/1188506860/photo/happy-woman-looking-forward-from-a-balcony.jpg?s=1024x1024&w=is&k=20&c=x_VM2DhCjMI8ZBmAO1f0CoUdbkjEYjbWTwRiDr6REJU=);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(81, 64, 52, 0.445);
+}
+
+.main .part3{
+    height: 100vh;
+    width: 26vw;
+    
+}
+
+.text-div{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.small-div{
+    background-color: #fff;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    background-image: url(https://media.istockphoto.com/id/1188506860/photo/happy-woman-looking-forward-from-a-balcony.jpg?s=1024x1024&w=is&k=20&c=x_VM2DhCjMI8ZBmAO1f0CoUdbkjEYjbWTwRiDr6REJU=);
+    background-size: cover;
+}
+.over-lay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(81, 64, 52, 0.445);
+}
+
+.vertical-text{
+    position: absolute;
+    top: 100%;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+   
+}
+
+.vertical-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    letter-spacing: 13px;
+    z-index: 1;
+}
+
+.nav{
+    position: absolute;
+    left: 8%;
+    top: 3%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    width: 65px;
+}
+
+.nav h4{
+    font-size: 15px;
+    font-family: 'gilroy';
+}
+.outline{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    color: transparent;
+}
